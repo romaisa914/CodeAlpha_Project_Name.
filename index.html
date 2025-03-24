@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romi's Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Modern Header -->
+    <div class="header">
+        <img src="ai.png" alt="AI Icon">
+        <span>Romi's Chatbot</span>
+    </div>
+
+    <!-- Chat Container -->
+    <div class="chat-container">
+        <!-- AI Chat Bubble -->
+        <div class="ai-chat-box">
+            <img src="ai.png" alt="AI" id="aiImage">
+            <div class="ai-chat-area">
+                Hello! How can I assist you today?
+            </div>
+        </div>
+
+        <!-- User Chat Bubble (Example) -->
+        <div class="user-chat-box">
+            <img src="user.png" alt="User" id="userImage">
+            <div class="user-chat-area">
+                Hi there! How can I help you today?
+            </div>
+        </div>
+    </div>
+
+    <!-- Message Input Area -->
+    <div class="prompt-area">
+        <input type="text" id="prompt" placeholder="Type your message...">
+        <button id="image">
+            <img src="img.svg" alt="Upload">
+            <input type="file" accept="images/*" hidden>
+        </button>
+        <button id="submit">
+            <img src="submit.svg" alt="Send">
+        </button>
+    </div>
+
+    <script src="script.js"></script>  
+</body>
+</html>
