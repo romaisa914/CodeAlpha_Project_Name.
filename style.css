@@ -1,0 +1,52 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1 {
+    margin-top: 30px;
+    font-size: 2rem;
+    color: #00c3ff;
+}
+
+/* Input Box */
+#text-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #00c3ff;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px;
+}
+
+/* Button */
+#generate-btn {
+    margin-top: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: white;
+    background: #00c3ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#generate-btn:hover {
+    background: #0086b3;
+}
+
+/* Audio Player */
+audio {
+    margin-top: 20px;
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+}
